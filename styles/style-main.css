@@ -1,6 +1,40 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    /*margin: 3vh;*/
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    font-style: Arial;
+    font-size: 5vh;
+    color: aliceblue;
 }
+
+button {
+    /*margin-bottom: 1vh;*/
+    border-radius: 1vh;
+    background-color: darkgray;
+    font-size: 2vh;
+    padding: 1vh;
+} button:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 128);
+    animation: btn-anim 1s ;
+}
+.container {
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+}
+.abilities {
+    display: none;
+}
+#p3 {
+    /*margin-top: -5vb;*/
+}
+#showAbilities {
+    display: none;
+}
+#about {
+    margin-bottom: 3vh;
+}
+h1 {
+    margin: 0;
+}
+br { display: none; }
