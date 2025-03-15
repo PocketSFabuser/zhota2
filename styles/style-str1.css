@@ -11,6 +11,7 @@ body {
 }
 
 button {
+    padding: 2vh;
     margin: 1.4vh;
     font-size: 2vh;
     color: aliceblue;
@@ -35,18 +36,12 @@ button {
     }
 }
 
-.bodier {
-    button {
-        padding: 1vh;
-        width: 20vh;
-        height: auto;
-    }
+#kunkka {
+    width: 40vb;
 }
-
-a {
-    margin: 1.4vh;
-    color: rgba(172, 172, 172, 0.438);
+#fura {
+    width: 50vb;
 }
-#end {
-    color:rgba(172, 172, 172, 0.438);
+#wr {
+    font-size: 10vh;
 }

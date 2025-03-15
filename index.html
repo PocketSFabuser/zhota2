@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Скрытие элементов и загрузка</title>
+    <title>Загрузка</title>
     <style>
         body {
+            color: aliceblue;
+            background-color: rgb(77, 77, 77);
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 50px; }
@@ -42,7 +44,7 @@
             document.getElementById('loading').style.display = 'block';
             setTimeout(() => {
                 window.open('./main.html', '_self');
-            }, 3000);
+            }, 1500);
         }
         window.onload = main();
     </script>
