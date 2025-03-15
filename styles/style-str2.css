@@ -36,12 +36,11 @@ button {
     }
 }
 
-#kunkka {
-    width: 40vb;
+ul {
+    list-style-position: inside; 
+    padding-left: 0; 
 }
-#fura {
-    width: 50vb;
-}
-#wr {
-    font-size: 10vh;
+
+#tech {
+    width: 35vb;
 }
